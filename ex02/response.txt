@@ -1,0 +1,23 @@
+1 - What is overfitting?
+It's when a model is really too specifc to our training data.
+It's good to only predict the precise value we gave it and not the general idear of the data set.
+It's impossible to predict other value if a model is overfitting.
+
+
+2 - What do you think underfitting might be?
+When a model is not specific enough, when it's prediction are note precise enough
+
+
+3 - Why is it important to split the data set in a training and a test set?
+It's important because it allow us to test our model on data it has never seen.
+
+
+4 - If a model overfits, what will happen when you compare its performance on the training set vs. its performance
+on the test set?
+If a model overfits, it will make really good prediction with the data of the training set
+and really bad one with the test set
+
+
+5 - If a model underfits, what do you think will happen when you compare its performance on the training set
+vs. its performance on the test set?
+If a model underfits, it's perfomance on training and test set should be not really good
