@@ -13,7 +13,7 @@ def regularized(func):
         if theta.ndim == 2 and theta.shape[1] == 1:
             theta = theta.flatten()
 
-        if theta.size == 0 or theta.ndim != 1:
+        if theta.size == 0 or theta.ndim != 1 or ret_val is None:
             return None
 
         theta_prime = theta[1:]
